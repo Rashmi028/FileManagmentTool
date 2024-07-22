@@ -6,7 +6,7 @@ import http from "http"
 const app= express();
 
 const server =http.createServer(function(req,res){
-   res.write("HEllo world");
+   res.write("Hello world");
    fs.writeFile
    res.end();
 })
